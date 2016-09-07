@@ -1,0 +1,152 @@
+@media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 935px) {
+	.f-right.menu {
+  	float: none;
+  }
+
+  .f-left.logo {
+  	float: none;
+  }
+
+  .main-header {
+  	.logo {
+  		text-align: center;
+  	}
+  }
+
+  .menu {
+		.item {
+  		display: block;
+  		.link {
+  			margin-right: 0;
+  			padding-right:0!important;
+  			text-align: center;
+  		}
+  		
+  		&:first-child, &:nth-child(4), &:nth-child(5) {
+				.link {
+					&::after {
+    				right: 20px;
+					}
+				}
+			}
+  	}
+  }
+}
+
+@media (max-width: 768px) {
+  .banner { padding-top: 50px; height: 500px;}
+
+  .section {
+  	.content {
+  		width: 100%;
+  	}
+
+  	.title.medium {
+  		margin-bottom: 20px;
+			&::before {
+				content: none;
+			}
+
+			&::after {
+				content: none;
+			}
+  	}
+  }
+
+  .banner-content {
+  	width: 100%;
+  	.title.medium {
+  		font-size: 3em;
+  		text-align: center;
+  	}
+
+  	.button {
+  		display: block;
+  		margin: 0 auto;
+  		text-align: center;
+  		margin-bottom: 20px;
+  	}
+  }
+
+  .banner-slogan {
+  	text-align: center;
+  }
+
+  .section {
+		&.featured {
+			.item {
+				display: block;
+				width: 100%;
+				margin-bottom: 40px;
+				transition: none;
+				box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20);
+				&:hover {
+					box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20);
+					transform: scale(1);
+				}
+			}
+
+			.link {
+				&.project {
+					height: auto;
+					bottom: 162px;
+				}
+			}	
+		}
+
+		&.outer {
+			.item {
+				transition-property: none;
+				transition-duration: none;
+				&:hover {
+					transform: none;
+					background: none;
+					color: #333;
+				}
+			}
+		}
+
+		&.pricing {
+			padding-top: 40px;
+			height: auto;
+			.item {
+				width: 100%;
+				display: block;
+				margin-top: 25px;
+				&.feature-plan {
+					margin-top: 30px;
+				}
+			}
+		}
+  }  
+
+  form {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+ 
+  .container {
+  	padding:0;
+  	width: 95%;
+  }
+
+  .banner-content {
+  	.title.medium {
+  		font-size: 2em;
+  	}
+  }
+
+  .section {
+  	&.outer {
+  		.item {
+  			border-right: none;	
+  		}
+  	}
+  }
+}

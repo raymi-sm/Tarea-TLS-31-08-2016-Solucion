@@ -1,0 +1,16 @@
+{
+  "name": "trabajo-repaso-1",
+  "version": "1.0.0",
+  "description": "Trabajo para practicar el repaso 1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raymi Saldomando",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

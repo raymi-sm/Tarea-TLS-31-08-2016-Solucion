@@ -1,0 +1,13 @@
+@mixin horizontal(){
+	display:inline-block;
+	vertical-align:top;
+	margin-right: -5px;
+}
+
+@mixin border-box() {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+}
